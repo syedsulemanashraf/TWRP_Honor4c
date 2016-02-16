@@ -58,7 +58,6 @@ TW_DEFAULT_EXTERNAL_STORAGE := true
 
 ####
 #BOARD_SUPPRESS_EMMC_WIPE := true
-#DEVICE_RESOLUTION := 480x854
 
 # USB Mounting
 #TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
