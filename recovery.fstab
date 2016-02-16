@@ -1,0 +1,10 @@
+/boot		emmc	/dev/block/platform/hi_mci.0/by-name/boot
+/misc		emmc	/dev/block/platform/hi_mci.0/by-name/misc
+/system		ext4	/dev/block/platform/hi_mci.0/by-name/system
+/data		ext4	/dev/block/platform/hi_mci.0/by-name/userdata	length=-16384
+/cache		ext4	/dev/block/platform/hi_mci.0/by-name/cache
+/recovery	emmc	/dev/block/platform/hi_mci.0/by-name/recovery
+/cust		ext4	/dev/block/platform/hi_mci.0/by-name/cust	flags=display="Cust";backup=1
+/sdcard		auto	/dev/block/mmcblk1p1	/dev/block/mmcblk1	flags=display="SDcard";storage;settingsstorage;wipeingui;removable
+/usb-otg	vfat	/dev/block/sda1 /dev/block/sda 			flags=display="USB OTG";storage;wipeingui;removable
+
